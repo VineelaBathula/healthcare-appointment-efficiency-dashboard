@@ -1,116 +1,80 @@
-# Healthcare Appointment Efficiency Dashboard
+Healthcare Appointment Efficiency Dashboard
 
-
-
-##### Project Overview
+Project Overview
 
 This project analyzes healthcare appointment data to understand why patients miss scheduled appointments and identify operational improvements that healthcare providers can implement.
 
+Using SQL and Power BI, the dashboard explores relationships between waiting time, patient demographics, chronic conditions, and SMS reminders to uncover patterns in missed appointments.
 
+The goal of the project is to provide actionable insights that help hospitals reduce no-show rates and improve scheduling efficiency.
 
-Using Power BI, the dashboard explores relationships between waiting time, patient demographics, health conditions, and SMS reminders to uncover patterns in missed appointments.
+Dashboard Preview
 
+Tools Used
 
+Power BI
+SQL
+DAX
+Data Modeling
+Data Visualization
 
-The goal is to provide actionable insights that help hospitals reduce no-show rates and improve appointment scheduling efficiency.
+Key Insights
 
+Approximately 20% of appointments are missed.
 
+Longer waiting times significantly increase the likelihood of missed appointments.
 
-\---
+Younger patients show higher no-show behaviour compared to older age groups.
 
+SMS reminders reduce missed appointments, particularly when waiting times are longer.
 
+Appointments scheduled more than 30 days in advance show the highest missed rate.
 
-##### Tools Used
+Dashboard Pages
 
-\- Power BI
+Executive Overview
+High-level KPIs and attendance distribution providing a quick summary of appointment performance.
 
-\- SQL
+Wait Time Impact
+Analysis showing how scheduling delays influence missed appointment rates.
 
-\- Data Modeling
+Patient Behaviour
+Exploration of attendance patterns across different age groups and health conditions.
 
-\- DAX
+Reminder Effectiveness
+Evaluation of how SMS reminders impact patient attendance behaviour.
 
-\- Data Visualization
+AI Insights
+Power BI Key Influencers visual used to identify the strongest factors driving missed appointments.
 
+Operational Recommendations
+Practical strategies healthcare administrators can implement to reduce missed appointments.
 
+Project Structure
 
-\---
-
-
-
-##### Key Insights
-
-\- Approximately \*\*20% of appointments are missed\*\*
-
-\- Longer waiting times significantly increase missed appointment rates
-
-\- \*\*Younger patients show higher no-show behavior\*\*
-
-\- \*\*SMS reminders reduce missed appointments\*\*, especially for longer wait times
-
-
-
-\---
-
-### 
-
-##### Dashboard Pages
-
-1\. Executive Overview  
-
-2\. Wait Time Impact  
-
-3\. Patient Behaviour  
-
-4\. Reminder Effectiveness  
-
-5\. AI Insights  
-
-6\. Operational Recommendations  
-
-
-
-\---
-
-
-
-##### Project Structure
-
-
-
-```
-
-###### HealthCare\_efficiancy
-
+HealthCare_efficiancy
 │
+├── Dashboard
+│ └── HealthCareEfficiency_dashboard.pbix
 
-├── Crafted Data
+├── Data
+│ ├── Raw
+│ └── Crafted
 
-├── Raw Data
+├── SQL
+│ └── healthcare_analysis_scripts.sql
 
-├── healthcare\_analysis\_scripts.sql
+├── Images
+│ └── dashboard_preview.png
 
-└── HealthCareEfficiency\_dashboard.pbix
+├── HealthCareEfficiency_dashboard.pdf
 
-```
+└── README.md
 
+Project Objective
 
-
-\---
-
-
-
-##### Dashboard Objective
-
-The objective of this dashboard is to help healthcare administrators identify operational factors driving missed appointments and implement strategies to improve patient attendance.
-
-
-
-\---
-
+Missed healthcare appointments create operational inefficiencies, increase costs, and reduce access to care for other patients. This dashboard helps healthcare administrators identify high-risk scheduling patterns and patient groups so they can implement targeted interventions such as improved reminder systems and optimized scheduling strategies.
 
 
 Author
-
 Vineela Bathula
-
